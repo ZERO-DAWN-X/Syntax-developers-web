@@ -24,14 +24,16 @@ function SyntaxPage({ onNavigate }) {
       </div>
 
       <div className="hero-right flex flex-col items-center justify-center">
-
         <p className="hero-pharagraph text-center p-10">
           Vercel provides free hosting for static sites and serverless
           functions, making it an excellent choice for developers looking to
           deploy their projects quickly.
         </p>
 
-        <button onClick={onNavigate} className="items-center gap-2 px-6 flex rounded-full p-2 border mt-5">
+        <button
+          onClick={onNavigate}
+          className="items-center gap-2 px-6 flex rounded-full p-2 border mt-5"
+        >
           <span className="text-lg uppercase">Explore</span>
           <i className="text-3xl">
             <MdOutlineKeyboardDoubleArrowRight />
