@@ -136,6 +136,34 @@ function HomePage() {
       </div>
 
       {/* our projects */}
+
+      {/* contact us */}
+      <div className="mt-28 mb-20 flex flex-col items-center relative">
+        <img
+          src="./BG-L-Assets.png"
+          alt="left-plant"
+          className="w-[80px] absolute -left-8 -top-10"
+        />
+        <img
+          src="./BG-R-Assets.png"
+          alt="left-plant"
+          className="w-[80px] absolute -right-8 bottom-0"
+        />
+
+        <h1 className="uppercase text-[16px] font-inter font-semibold tracking-widest">
+          <span>if you</span> want
+        </h1>
+        <div className="mt-6 our-services-text border border-2 px-5 py-2 uppercase flex flex-col items-center">
+          <h1 className="text-[18px]">custom websites</h1>
+          <h2 className="text-[7px] pt-2">-contact us-</h2>
+        </div>
+        
+        <p className="text-[11px] px-10 text-center my-5 text-[#618E74]">
+          We are providing the best web based solutions using cutting edge
+          technologies. A professional website has a far wider reach than any
+          other form of advertising.
+        </p>
+      </div>
     </main>
   );
 }
