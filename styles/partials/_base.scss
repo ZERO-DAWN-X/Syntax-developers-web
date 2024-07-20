@@ -1,0 +1,43 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  color: $primary-color;
+}
+
+main {
+  background-color: $background-color;
+}
+span {
+  color: $secondary-color;
+  font-size: 17px;
+
+  .HeroText2 {
+    color: white;
+  }
+}
+
+.developers {
+  color: white;
+  letter-spacing: 0.9rem;
+  padding-left: 12px;
+}
+
+.hero-pharagraph {
+  color: $tertiary-color;
+}
+
+.overlyBg {
+  background-color: rgba(0, 0, 0, 0.37);
+}
+
+.landing-header{
+  letter-spacing: 1px;
+}
+h1{
+  font-family: $font-poppins;
+}
+
+.our-services-text{
+  letter-spacing:4px;
+}
