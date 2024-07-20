@@ -24,7 +24,7 @@ function SyntaxPage({ onNavigate }) {
       </div>
 
       <div className="hero-right flex flex-col items-center justify-center">
-        <p className="hero-pharagraph text-center p-10">
+        <p className="text-[12px] hero-pharagraph text-center p-10">
           Vercel provides free hosting for static sites and serverless
           functions, making it an excellent choice for developers looking to
           deploy their projects quickly.
