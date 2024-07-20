@@ -17,7 +17,7 @@ function SyntaxPage({ onNavigate }) {
         </div>
       </div>
       <div className="hero-left mt-6 uppercase right-1 top-20 flex flex-col items-start tracking-widest">
-        <h1 className="py-2 px-6 border border-l-0 text-3xl mb-1">welcome</h1>{" "}
+        <h1 className="py-2 px-6 border border-2 border-l-0 text-3xl mb-1">welcome</h1>{" "}
         <span className="pl-2">
           to our <span className="HeroText2">workspace</span>
         </span>
@@ -32,9 +32,9 @@ function SyntaxPage({ onNavigate }) {
 
         <button
           onClick={onNavigate}
-          className="items-center gap-2 px-6 flex rounded-full p-2 border mt-5"
+          className="items-center gap-2 px-6 flex rounded-full py-1 border border-2 mt-5"
         >
-          <span className="text-lg uppercase">Explore</span>
+          <span className="text-lg font-semibold">Let's Go</span>
           <i className="text-3xl">
             <MdOutlineKeyboardDoubleArrowRight />
           </i>
