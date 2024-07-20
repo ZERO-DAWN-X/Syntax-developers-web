@@ -4,11 +4,11 @@ import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 function SyntaxPage({ onNavigate }) {
   return (
     <main className="min-h-screen">
-      <div className="sm:w-full sm:h-full w-full h-[433px] relative flex flex-col items-center justify-center">
+      <div className="sm:w-full sm:h-full w-full h-[425px] relative flex flex-col items-center justify-center">
         <img
           src="./heroimg.png"
           alt="hero image"
-          className="w-full rounded-br-[220px] h-full"
+          className="w-full rounded-br-[220px] h-[425px]"
         />
         <div className="overlyBg absolute w-full h-full rounded-br-[220px]"></div>
         <div className="flex flex-col items-center justify-center absolute">
@@ -31,7 +31,7 @@ function SyntaxPage({ onNavigate }) {
           deploy their projects quickly.
         </p>
 
-        <button onClick={onNavigate} className="items-center gap-2 px-6 flex rounded-full p-2 border mt-10">
+        <button onClick={onNavigate} className="items-center gap-2 px-6 flex rounded-full p-2 border mt-5">
           <span className="text-lg uppercase">Explore</span>
           <i className="text-3xl">
             <MdOutlineKeyboardDoubleArrowRight />
