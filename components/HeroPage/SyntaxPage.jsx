@@ -17,7 +17,7 @@ function SyntaxPage({ onNavigate }) {
         </div>
       </div>
       <div className="hero-left mt-6 uppercase right-1 top-20 flex flex-col items-start tracking-widest">
-        <h1 className="py-2 px-6 border border-2 border-l-0 text-3xl mb-1">welcome</h1>{" "}
+        <h1 className="py-2 px-6 border border-2 border-l-0 text-3xl mb-1">welcome</h1>
         <span className="pl-2">
           to our <span className="HeroText2">workspace</span>
         </span>
